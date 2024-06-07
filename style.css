@@ -128,10 +128,8 @@ body {
   align-items: center;
 }
 
-.main-container .specific-results .items [class$="-result"] h2 span {
-  font-size: 22px;
-  font-weight: 500;
-  margin: 0 10px;
+.main-container .specific-results .items [class$="-result"] h2 img {
+  margin: 0 15px;
 }
 
 .main-container .specific-results .items [class$="-result"] .value {
@@ -147,7 +145,7 @@ body {
 }
 
 .main-container .specific-results .items .reaction-result {
-  background-color: hsla(0, 100%, 67%, 0.07);
+  background-color: hsla(0, 100%, 67%, 0.05);
 }
 
 .main-container .specific-results .items .reaction-result h2 {
@@ -155,7 +153,7 @@ body {
 }
 
 .main-container .specific-results .items .memory-result {
-  background-color: hsla(28, 100%, 56%, 0.07);
+  background-color: hsla(28, 100%, 56%, 0.05);
 }
 
 .main-container .specific-results .items .memory-result h2 {
@@ -163,7 +161,7 @@ body {
 }
 
 .main-container .specific-results .items .verbal-result {
-  background-color: hsla(166, 100%, 37%, 0.07);
+  background-color: hsla(166, 100%, 37%, 0.05);
 }
 
 .main-container .specific-results .items .verbal-result h2 {
@@ -171,7 +169,7 @@ body {
 }
 
 .main-container .specific-results .items .visual-result {
-  background-color: hsla(234, 85%, 45%, 0.07);
+  background-color: hsla(234, 85%, 45%, 0.05);
 }
 
 .main-container .specific-results .items .visual-result h2 {
@@ -236,7 +234,7 @@ body {
     font-weight: 700;
   }
 
-  .main-container .specific-results .items [class$="-result"] h2 span {
+  .main-container .specific-results .items [class$="-result"] h2 img {
     margin-left: 0;
   }
 
@@ -330,19 +328,19 @@ body {
   
   .main-container .specific-results .items [class$="-result"] h2 {
     display: flex;
-    font-size: 18px;
     font-weight: 500;
+    scale: 1.1;
   }
   
-  .main-container .specific-results .items [class$="-result"] h2 span {
+  .main-container .specific-results .items [class$="-result"] h2 img {
     display: flex;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   
   .main-container .specific-results .items [class$="-result"] .value {
-    font-size: 18px;
     font-weight: 700;
     margin-right: 20px;
+    scale: 1.1; 
   }
 
   .main-container .specific-results .items [class$="-result"]:hover {
