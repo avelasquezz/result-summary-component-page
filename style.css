@@ -1,0 +1,192 @@
+/* Icons */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/*General styling*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Hanken Grotesk';
+}
+
+.main-container {
+  display: flex;
+  width: 715px;
+  height: 500px;
+  margin: 80px 0 80px 0;
+  border-radius: 30px;
+  box-shadow: 5px 10px 30px hsla(224, 30%, 27%, 0.09);
+}
+
+.main-container .overall-average {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(253, 100%, 67%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.main-container .overall-average h1 {
+  color: hsl(241, 100%, 89%);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 25px 0 34px 0;
+}
+
+.main-container .overall-average .value {
+  width: 200px; 
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.main-container .overall-average .value .obtained-result {
+  color: white;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.main-container .overall-average .value .max-posible-result {
+  color: hsla(241, 100%, 89%, 0.5);
+  font-weight: 500;
+}
+
+.main-container .overall-average .result-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 40px 0 40px;
+}
+
+.main-container .overall-average .result-description h2 {
+  color: white;
+  font-weight: 700px;
+  font-size: 29px;
+}
+
+.main-container .overall-average .result-description p {
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  margin: -5px 0 30px 0;
+}
+
+.main-container .specific-results {
+  padding: 25px 35px 25px 35px;
+}
+
+.main-container .specific-results h1 {
+  font-size: 24px;
+  color: hsl(224, 30%, 27%);
+}
+
+.main-container .specific-results .items {
+  margin: 27px 0 39px 0
+}
+
+.main-container .specific-results .items [class$="-result"] {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px 0 17px 0;
+  transition: all 0.3s ease;
+}
+
+.main-container .specific-results .items [class$="-result"] h2 {
+  display: flex;
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.main-container .specific-results .items [class$="-result"] h2 span {
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.main-container .specific-results .items [class$="-result"] .value {
+  font-size: 18px;
+  padding-right: 20px;
+  color: hsl(0, 0%, 62%);
+  font-weight: 700;
+}
+
+.main-container .specific-results .items [class$="-result"] .value span {
+  color: hsl(224, 30%, 27%);
+  margin-right: 10px;
+}
+
+.main-container .specific-results .items .reaction-result {
+  background-color: hsla(0, 100%, 67%, 0.07);
+}
+
+.main-container .specific-results .items .reaction-result h2 {
+  color: hsl(0, 100%, 67%);
+}
+
+.main-container .specific-results .items .memory-result {
+  background-color: hsla(28, 100%, 56%, 0.07);
+}
+
+.main-container .specific-results .items .memory-result h2 {
+  color: hsl(28, 100%, 56%);
+}
+
+.main-container .specific-results .items .verbal-result {
+  background-color: hsla(166, 100%, 37%, 0.07);
+}
+
+.main-container .specific-results .items .verbal-result h2 {
+  color: hsl(166, 100%, 37%);
+}
+
+.main-container .specific-results .items .visual-result {
+  background-color: hsla(234, 85%, 45%, 0.07);
+}
+
+.main-container .specific-results .items .visual-result h2 {
+  color: hsl(234, 85%, 45%);
+}
+
+.main-container .specific-results .continue-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  padding: 18px 0 18px 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+/*Hover states*/
+.main-container .specific-results .items [class$="-result"]:hover {
+  scale: 1.2;
+}
+
+.main-container .specific-results .continue-button:hover {
+  background-color: hsl(223, 31%, 20%);
+}
