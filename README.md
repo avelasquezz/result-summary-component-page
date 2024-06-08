@@ -4,12 +4,10 @@ This is a solution to the [Result summary component challenge on Frontend Mentor
 
 ## Links
 
-- Solution URL: [Result summary](https://avelasquezz.github.io/result-summary-component-page/)
+- Live Site URL: [Here](https://avelasquezz.github.io/result-summary-component-page/)
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 
 ## Author
