@@ -187,8 +187,24 @@ body {
   color: white;
   font-size: 18px;
   font-weight: 700;
-  transition: background-color 0.2s;
   cursor: pointer;
+  position: relative;
+}
+
+.main-container .specific-results .continue-button::after {
+  content: "Continue";
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(253, 100%, 67%));
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 /* Hover states */
@@ -196,8 +212,8 @@ body {
   scale: 1.1;
 }
 
-.main-container .specific-results .continue-button:hover {
-  background-color: hsl(223, 31%, 20%);
+.main-container .specific-results .continue-button:hover::after {
+  opacity: 1;
 }
 
 /* General responsive styling */
